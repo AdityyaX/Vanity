@@ -326,7 +326,7 @@ p {
 #services .service-bottom {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: row;
 	/* flex-wrap: wrap; */
 	margin-top: 50px;
@@ -825,5 +825,13 @@ linear-gradient(135deg, #2d3436 90%, #3e4446 1%);
 		margin: 1.5%;
 	}
 }
-
-/* End  Media Query For Desktop */
+.neardy{
+		background-image: url(./images/Bg2.jpg);
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		background-position: top center;
+		position: relative;
+		background-attachment: fixed;
+		z-index: 1;
+}

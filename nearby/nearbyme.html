@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Work+Sans:ital,wght@0,200;1,100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/login/login.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <title style="font-family: 'La Belle Aurore', cursive;">Vanity</title>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header" style="background-color:rgba(0, 0, 0, 0.5)">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>VA</span>NITY </h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/index.html" data-after="Home">Home</a></li>
+            <li><a href="/index.html#services" data-after="Service">Services</a></li>
+            <li><a href="/index.html#about" data-after="About">About</a></li>
+            <li><a href="/index.html#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- login -->
+  <div class="overlay" onclick="closeform()"></div>
+  <section class="container1 forms">
+    <div class="form login">
+      <div class="form-content">
+        <header>Lo<span class="but-col">g</span>in</header>
+        <form action="#">
+          <div class="field input-field">
+            <input type="email" placeholder="Email" class="input">
+          </div>
+
+          <div class="field input-field">
+            <input type="password" placeholder="Password" class="password">
+            <i class='bx bx-hide eye-icon'></i>
+          </div>
+
+          <div class="form-link">
+            <a href="#" class="forgot-pass">Forgot password?</a>
+          </div>
+
+          <div class="field button-field">
+            <button id="newpage" type="button">Login</button>
+          </div>
+        </form>
+
+        <div class="form-link">
+          <span style="color: white;">Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="media-options">
+        <a href="https://accounts.google.com/" class="field google">
+          <img src="login/images/google.png" alt="" class="google-img">
+          <span style="color: white;">Login with Google</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Signup Form -->
+
+    <div class="form signup">
+      <div class="form-content">
+        <header>Sig<span class="but-col">n</span>up</header>
+        <form action="#">
+          <div class="field input-field">
+            <input type="email" placeholder="Email" class="input">
+          </div>
+
+          <div class="field input-field">
+            <input type="password" placeholder="Enter password" class="password">
+          </div>
+
+          <div class="field input-field">
+            <input type="password" placeholder="Confirm password" class="password">
+            <i class='bx bx-hide eye-icon'></i>
+          </div>
+
+          <div class="field button-field">
+            <button>Signup</button>
+          </div>
+        </form>
+
+        <div class="form-link">
+          <span style="color: white;">Already have an account? <a href="#" class="link login-link ">Login</a></span>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="media-options">
+        <a href="https://accounts.google.com/" class="field google">
+          <img src="login/images/google.png" alt="" class="google-img">
+          <span style="color: white;">Login with Google</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container nearby">
+      <div class="service-top">
+        <h1 class="section-title">Near<span> By </span>Me</h1>
+        <p></p>
+      </div>
+      <div class="service-bottom">
+        <a href="washroom.html"><div class="service-item">
+          <div class="icon">
+            <img src="https://img.icons8.com/windows/32/000000/toilet.png" />
+          </div>
+          <h2>Washroom Near Me</h2>
+          <p>
+            Near by Washroom For LGBTQ's</p>
+        </div></a>
+        <a href="restaurant.html"><div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/food.png" /></div>
+          <h2>Restraunt Near Me</h2>
+          <p>Near by Restraunt For LGBTQ's</p>
+        </div></a>
+        <a href="hotel.html"><div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/windows/32/228BE6/home.png" /></div>
+          <h2>Hotel Near Me</h2>
+          <p>Near by Hotel For LGBTQ's<br></p>
+        </div></a>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>VA</span>NITY </h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/gmail-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Made By Team Tranquility❤️</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/login/login.js"></script>
+</body>
+
+</html>
